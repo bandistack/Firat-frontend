@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+:root {
+  --font-family-base: 'Inter', sans-serif;
+  --font-size-title-l: 15px;
+  --font-size-title-m: 13px;
+  --font-size-title-s: 11px;
+  --font-weight-title: 500;
+  --line-height-title-l: 28px;
+  --line-height-title-m: 24px;
+  --line-height-title-s: 22px;
+}

@@ -1,0 +1,11 @@
+:root {
+  --navbar-height-L: 55px;
+  --navbar-height-M: 53px;
+  --navbar-height-S: 50px;
+  --navbar-padding-L-x: 64px;
+  --navbar-padding-L-y: 15px;
+  --navbar-padding-M-x: 54px;
+  --navbar-padding-M-y: 10px;
+  --navbar-padding-S-x: 44px;
+  --navbar-padding-S-y: 8px;
+}
