@@ -1,15 +1,16 @@
 <script setup>
 import { ref, onMounted } from 'vue'
+import { computed } from "vue";
 import axios from 'axios'
 
 const data = ref([])
 const loading = ref(true)
 const error = ref(null)
-const columns = computed(() => (data.value.length ? Object.keys(data.value[0]) : [])
+const columns = computed(() => (data.value.length ? Object.keys(data.value[0]) : []))
 
 onMounted(async () => {
   try {
-    const res = await axios.get('https://api.example.com/data')
+    const res = await axios.get('http://192.168.1.8:8000/rss/today')
     data.value = res.data
   } catch (err) {
     error.value = err.message
