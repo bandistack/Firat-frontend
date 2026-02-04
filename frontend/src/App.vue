@@ -1,9 +1,11 @@
 <script setup lang="ts">
-import './assets/body.css'
-import NavBar from './components/NavBar.vue'
+import Nav from './components/Nav.vue'
+import Fire from './components/Fire.vue'
 </script>
+
 <template>
-  <NavBar />
+  <div class="bg-slate-200">
+  <Nav/>
+  <Fire/>
+  </div>
 </template>
-<style scoped>
-</style>
